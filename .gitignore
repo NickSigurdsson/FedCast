@@ -1,0 +1,66 @@
+# ─── Python ───────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.log
+
+# ─── Virtual Environments ─────────────────
+.venv/
+venv/
+env/
+ENV/
+fedforecaster/          # your local conda env if created inside project
+
+# ─── Environment Files ────────────────────
+.env
+*.env
+
+# ─── IDE / Editor Settings ────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# ─── OS Files ─────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Build / Distribution ─────────────────
+build/
+dist/
+*.spec
+
+# ─── Data / Outputs ───────────────────────
+*.db
+*.sqlite3
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.pkl
+*.joblib
+
+# ─── Jupyter / Notebooks ──────────────────
+.ipynb_checkpoints/
+
+# ─── Streamlit ────────────────────────────
+.streamlit/
+
+# ─── Testing / Coverage ───────────────────
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.mypy_cache/
+.pyre/
+.pytype/
+
+# ─── Docker ───────────────────────────────
+*.pid
+*.seed
+*.pid.lock
