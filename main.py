@@ -1,9 +1,11 @@
+# import streamlit as st
 from typing import Union
-
 from fastapi import FastAPI
 
 app = FastAPI()
 
+# st.title("FedCast")
+# st.write("Welcome to FedCast, your federated learning forecasting tool!")
 
 @app.get("/")
 def read_root():
